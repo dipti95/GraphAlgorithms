@@ -1,3 +1,8 @@
+// quick find
+// more work in "union" operation
+//time Compexity of find opertion is 0(1);
+//time compexity of union opertion is 0(N);
+
 class Node {
   constructor(props) {
     let arr = [];
