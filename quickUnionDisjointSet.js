@@ -15,7 +15,7 @@ class Node {
   }
 
   find(x) {
-    while (x !== this.root[x]) {
+    if (x !== this.root[x]) {
       x = this.root[x];
     }
     return x;
