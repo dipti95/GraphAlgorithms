@@ -40,6 +40,6 @@ uf.union(8, 9);
 console.log(uf.connected(1, 5));
 console.log(uf.connected(5, 7));
 console.log(uf.connected(4, 9));
-
+// 1-2-5-6-7 3-8-9-4
 uf.union(9, 4);
 console.log(uf.connected(4, 9));
