@@ -1,3 +1,9 @@
+// timeComplexity of
+//find component 0(logN);
+// union component 0(logN);
+// connected component 0(logN);
+// class Node 0(N)
+
 class Node {
   constructor(props) {
     let arr = [];
@@ -5,7 +11,7 @@ class Node {
       arr.push(i);
     }
     this.root = arr;
-    console.log(this.root);
+    //console.log(this.root);
   }
 
   find(x) {
