@@ -1,7 +1,7 @@
 // quick find
 // more work in "union" operation
-//time Compexity of find opertion is 0(1);
-//time compexity of union opertion is 0(N);
+//time Compexity of find opertion is O(1);
+//time compexity of union opertion is O(N);
 
 class Node {
   constructor(props) {
