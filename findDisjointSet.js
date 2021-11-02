@@ -5,7 +5,7 @@ class Node {
       arr.push(i);
     }
     this.root = arr;
-    // console.log(this.root);
+    // console.log(this.root)
   }
 
   find(x) {
