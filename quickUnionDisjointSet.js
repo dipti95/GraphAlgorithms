@@ -1,8 +1,8 @@
 // timeComplexity of
-//find component 0(logN);
-// union component 0(logN);
-// connected component 0(logN);
-// class Node 0(N)
+//find component O(logN);
+// union component O(logN);
+// connected component O(logN);
+// class Node O(N)
 
 class Node {
   constructor(props) {
