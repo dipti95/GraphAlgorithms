@@ -1,3 +1,9 @@
+// timeComplexity of
+//find component O(α(N));
+// union component O(α(N));
+// connected component O(α(N));
+// constructor Node O(N)
+
 class Node {
   constructor(props) {
     this.root = [];
