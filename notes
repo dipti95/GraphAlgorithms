@@ -1,0 +1,6 @@
+=> DepthFirstSearch(DFS) - we use stack datastructure ;
+=> BreadthFirstSearch(BFS)- we use queue datastructure;
+
+=>If we have to find the shortest path in graph BreadthFirstSearch is more efficient then 
+DepthFirstSearch.
+=> WHILE USING BFS THE FIRST PATH FOUND WILL BE THE SHORTEST PATH.
