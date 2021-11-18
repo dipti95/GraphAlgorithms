@@ -1,8 +1,7 @@
 // Graph representation (adjecent list);
-
+// BFS - iterative approach using queue
 function validPath(n, edges, start, end) {
   let graph = new Map();
-
   edges.filter(([x, y]) => {
     if (!graph.has(x)) graph.set(x, []);
     if (!graph.has(y)) graph.set(y, []);
