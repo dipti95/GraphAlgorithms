@@ -34,8 +34,12 @@ function checkingSize(row, col, matrix, visited, sizes) {
     let col = node[1];
     if (visited[row][col]) continue;
     visited[row][col] = true;
+    // checking if matrix[row][col] === 0; then we don't need to do anything;
     if (matrix[row][col] === 0) continue;
-    currentSize++;
+    // if matrix[row][col] === 1 then we increases the currentSize of the same river;
+    else currentSize++;
+    // After that we have to check the neighbour of the matrix[row][col] (UP,DOWN, LEFT,RIGHT)
+    // and if not visited then we push there indexes to the stack
     if (row > 0 && !visited[row - 1][col]) stack.push([row - 1, col]);
     if (row < matrix.length - 1 && !visited[row + 1][col])
       stack.push([row + 1, col]);
