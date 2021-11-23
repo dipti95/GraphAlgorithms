@@ -19,11 +19,17 @@ function connect(root) {
     let size = queue.length;
 
     for (let i = 0; i < size; i++) {
+      // Hear we are removing the first element of queue
       let node = queue.shift();
 
+      // After that we are checking if node.left or node.right are not null
+      // then push to queue;
       if (node.left) queue.push(node.left);
       if (node.rigth) queue.push(node.right);
 
+      // At last in the question it is given that we have to check the right next value so
+      // if right next value is not present we set the value to null;
+      // if not the we are setting node.next equal to the first value of queue
       if ((i = size - 1)) node.next = null;
       else node.next = [queue[0]];
     }
