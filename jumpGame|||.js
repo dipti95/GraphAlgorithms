@@ -1,5 +1,11 @@
 //BY BREADTH FIRST SEARCH;
 
+/**you are initially positioned at start index of the array. 
+ * When you are at index i, 
+ * you can jump to i + arr[i] or i - arr[i], 
+ check if you can reach to any index with value 0.
+  */
+
 function canReach(arr, start) {
   let queue = [start];
   let max = arr.length;
