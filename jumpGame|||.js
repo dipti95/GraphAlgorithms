@@ -20,3 +20,15 @@ function canReach(arr, start) {
   }
   return false;
 }
+// by DFS BASED ON RECURSION;
+
+function canReach(arr, start) {
+  const value = arr[start];
+  if (value === 0) return true;
+  if (value === -1) return false;
+  arr[start] = -1;
+  return (
+    (start - val >= 0 && canReach(arr, start - val)) ||
+    (start + val < arr.length && canReach(arr, start + val))
+  );
+}
