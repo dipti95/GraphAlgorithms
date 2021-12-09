@@ -1,3 +1,5 @@
+// TRY TO SOLVE BY ANOTHER WAY
+
 function longestConsecutiveSequence(nums) {
   if (nums.length === 0) return 0;
   nums = nums.sort((a, b) => a - b);
