@@ -1,4 +1,5 @@
-// TRY TO SOLVE BY ANOTHER WAY
+// TRY TO SOLVE BY DFS AND BFS
+//
 
 function longestConsecutiveSequence(nums) {
   if (nums.length === 0) return 0;
